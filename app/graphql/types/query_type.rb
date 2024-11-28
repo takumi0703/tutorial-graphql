@@ -1,5 +1,6 @@
 # frozen_string_literal: true
 
+# GraphQLのクエリ内容を定義するクラス
 module Types
   class QueryType < Types::BaseObject
     field :node, Types::NodeType, null: true, description: "Fetches an object given its ID." do
@@ -26,6 +27,15 @@ module Types
       description: "An example field added by the generator"
     def test_field
       "Hello World!"
+    end
+
+    field :user, Types::UserType, null: false do
+      argument :id, ID, required: true
+    end
+    # field に指定された値に対して返す値を定義する
+    # メソッド名とfieldの名前が一致している必要があるよう
+    def user(id:)
+      User.find(id)
     end
   end
 end
