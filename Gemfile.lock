@@ -89,8 +89,14 @@ GEM
       irb (~> 1.10)
       reline (>= 0.3.8)
     erubi (1.13.0)
+    fiber-storage (1.0.0)
     globalid (1.2.1)
       activesupport (>= 6.1)
+    graphiql-rails (1.10.1)
+      railties
+    graphql (2.4.4)
+      base64
+      fiber-storage
     i18n (1.14.6)
       concurrent-ruby (~> 1.0)
     importmap-rails (2.0.3)
@@ -222,6 +228,8 @@ DEPENDENCIES
   bootsnap
   capybara
   debug
+  graphiql-rails
+  graphql
   importmap-rails
   jbuilder
   pg (~> 1.1)
