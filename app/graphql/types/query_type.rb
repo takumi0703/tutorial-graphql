@@ -25,8 +25,8 @@ module Types
     #   "Hello World!"
     # end
 
-    # クエリ例
-    # {
+    # クエリ例(query は省略化)
+    # query {
     #   user(id: "1") {
     #     id
     #     name
@@ -44,7 +44,7 @@ module Types
 
     # 複数の場合は、第二引数にtypeを[]で囲う
     # クエリ例
-    # {
+    # query {
     #   users {
     #     id
     #     name
