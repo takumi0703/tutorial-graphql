@@ -2,5 +2,7 @@
 
 
 参考
-https://qiita.com/sazumy/items/58106174392516da5f1d
-https://reisuta.com/rails-new/
+
+[前準備](https://reisuta.com/rails-new/)
+
+[\[Rails基礎\] GraphQL基礎講座](https://zenn.dev/igaiga/books/rails-practice-note/viewer/rails_graphql_workshop)
