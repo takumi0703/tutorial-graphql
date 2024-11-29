@@ -1,7 +1,16 @@
 # README
 
+## ローカルで動かす(環境構築)
+```
+docker-compose build
+docker-compose up
+```
 
-参考
+[クエリ実行できるブラウザ](http://localhost:3000/graphiql)
+
+
+
+## 参考
 
 [前準備](https://reisuta.com/rails-new/)
 
