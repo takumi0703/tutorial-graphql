@@ -1,7 +1,7 @@
 # README
 
 ## 構築手順
-上から順番進めていって、docker-compose upまでできたらZennの資料みながら進める
+上から順番進めていって、[ここまで](https://github.com/takumi0703/tutorial-graphql/tree/tutorial_main?tab=readme-ov-file#6-rails-%E3%82%B5%E3%83%BC%E3%83%90%E3%83%BC%E3%81%8C%E6%AD%A3%E5%B8%B8%E3%81%AB%E8%B5%B7%E5%8B%95%E3%81%99%E3%82%8B%E3%81%8B%E7%A2%BA%E8%AA%8D%E3%81%99%E3%82%8B)できたらZennの資料みながら進める
 
 ### 1. cloneするディレクトリに移動
 (どこでもいい。 ~ とか)
