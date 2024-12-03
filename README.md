@@ -21,6 +21,7 @@ git clone git@github.com:takumi0703/tutorial-graphql.git
 ```
 
 ### 4. 作業ブランチに移動
+(mainはすでに資料進めちゃったやつだから、進める前に戻したtutorial_mainを使う)
 ```
 git checkout tutorial_main
 ```
