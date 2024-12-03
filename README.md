@@ -65,3 +65,7 @@ $ bin/rails g graphql:install
 $ bin/rails s`
 ```
 とかの記述の時は、`docker-compose down`して`docker-compose up`すればOK
+
+## 3. gem を追加した後
+
+特に bundle installしてとか書いてないけど、必要だから、`docker-compose down`→`docker-compose build`→`docker-compose up`してー
